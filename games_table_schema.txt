@@ -1,0 +1,15 @@
+CREATE TABLE games (
+  app_id            varchar(255),
+  name              varchar(255),
+  estimated_owners  varchar(255),
+  price             varchar(255),
+  about_the_game    varchar(30000),
+  positive          varchar(255),
+  negative          varchar(255),
+  recommendations   varchar(255),
+  developers        varchar(1000),
+  categories        varchar(1000),
+  genres            varchar(1000),
+  tags              varchar(1000)
+
+);

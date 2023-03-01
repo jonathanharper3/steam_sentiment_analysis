@@ -1,0 +1,9 @@
+CREATE TABLE reviews(
+    app_id          varchar(255),
+    app_name        varchar(255),
+    review_score    varchar(255),
+    review_votes    varchar(255),
+    num_words       varchar(255),
+    clean_tokens    varchar(65535),
+    review_text     varchar(65535)
+)
